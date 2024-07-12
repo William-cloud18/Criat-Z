@@ -1,0 +1,101 @@
+body {
+    background-color: #0a0919ff;
+    margin: 0;
+}
+
+header {
+    background-color: #100f2eff;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
+}
+
+.font2 {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 400px;
+    margin-top: -150px;
+}
+
+.font3 {
+    width: 400px;
+    text-align: justify;
+    
+}
+
+.font4 {
+    line-height: 0.5;
+}
+
+.color {
+    color: #bb8632;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3 ease;
+}
+
+.color:hover {
+    color: aliceblue;
+}
+
+.color1 {
+    color: #bb8632;
+    text-decoration: none;
+}
+
+.img {
+   margin-right: 500px;
+}
+
+.img2 {
+    position: relative;
+    top: 360px;
+    width: 200px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+.social-icons {
+    position: fixed;
+    left: 10px; /* Distância da borda esquerda */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaçamento entre os ícones */
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+
+.whatsapp {
+    background-image: url('img/whatsapp\ \(2\).png'); /* Substitua com o caminho correto da imagem do ícone */
+}
+
+.instagram {
+    background-image: url('img/instagram\ \(2\).png'); /* Substitua com o caminho correto da imagem do ícone */
+}
+
+.Gmail {
+    background-image: url('img/gmail.png'); /* Substitua com o caminho correto da imagem do ícone */
+}
+
+footer {
+    background-color: #100f2eff;
+    color: #fff; /* Cor do texto do footer */
+    text-align: center;
+    padding: 2px 0;
+    margin-top: 300px;
+}
+
+  
